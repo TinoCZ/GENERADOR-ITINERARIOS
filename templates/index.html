@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Itinerario de Vacaciones</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>Planificador de Vacaciones</h1>
+    <p>Escribe una ciudad o país y obtén un itinerario de 7 días para tus vacaciones:</p>
+
+    <input type="text" id="destino" placeholder="Ej: Río de Janeiro, Japón, París..." />
+    <button onclick="generarItinerario()">Generar Itinerario</button>
+
+    <div id="respuesta" class="resultado"></div>
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>

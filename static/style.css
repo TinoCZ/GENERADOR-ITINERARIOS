@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+p {
+  margin-bottom: 20px;
+  color: #555;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 80%;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #ff7f50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff6333;
+}
+
+.resultado {
+  margin-top: 25px;
+  white-space: pre-wrap;
+  color: #333;
+}
+
+.resultado p:first-child {
+  font-weight: bold; /* Destacar el título del itinerario */
+}
+
+.resultado p strong {
+  display: block; /* Hace que los títulos como "CONSEJOS ÚTILES" ocupen su propia línea */
+  margin-top: 20px; /* Agrega espacio antes del título */
+  font-size: 1.2em; /* Hace que el título se vea un poco más grande */
+}
+
+
